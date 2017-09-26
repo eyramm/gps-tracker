@@ -15,7 +15,6 @@
         }
 	
 		
-
         $file = 'gps.txt';
         $lat = getParameter("latitude");
         $lon = getParameter("longitude");
@@ -61,9 +60,6 @@
 <title> My Project</title>
 
 
-
-    <!-- Load Jquery -->
-
     
 <!-- <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
 <link rel="stylesheet" type="text/css" href="css/styles.css">    
@@ -73,9 +69,9 @@
 <script src="js/bootstrap.min.js"></script>
     <!-- Load Google Maps Api -->
 
-    <!-- IMPORTANT: change the API v3 key -->
+    <!-- IMPORTANT: insert the API key -->
 
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAhYb-kGKvZ7v5Vd7Kl5463tq1myKnmYnM"></script>
+    <script src=""></script>
 
 
     <!-- Initialize Map and markers -->
@@ -86,7 +82,7 @@
         height: 0;
         overflow: hidden;
     }
-    .google-maps iframe {
+.google-maps iframe {
         position: absolute;
         top: 0;
         left: 0;
@@ -104,7 +100,6 @@
         function initialize()
         {
             mapProp = {
-    //          center:myCenter,
               zoom:15,
               mapTypeId:google.maps.MapTypeId.ROADMAP
               };
@@ -113,12 +108,13 @@
             mark();
           
         }
+        
+        
         setInterval(function(){
             mark();
         }, 30000);
 		
 		
-
         function mark()
         {
 
@@ -160,8 +156,6 @@
         width: 800px;
         height: 400px;
         background-color: grey;
-
-		
       }
     </style>
 

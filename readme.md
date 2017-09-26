@@ -13,13 +13,13 @@ The features of the various parts of this proect are highlighted below:
 2.  #### Arduino Code
 
     1. Tracks vehicle location in realtime
-    2. Stores GPS location, time, date, course, altitude, speed, number of satellites used, etc, in a text file 
-    3. Post GPS data to webserver
+    2. Posts the GPS location, time, date, course, altitude, speed, number of satellites used, etc, to a webserver
 
 3. #### Web Server
 
-    1. Shows the current of the vehicle. It refreshes every 30 seconds.
-    2. Displays last seen location of the vehicle and ofther details like the location, time, and altitude. 
+    1. Stores location information received from Arduino into a text file 
+    2. Shows the current of the vehicle. It refreshes every 30 seconds.
+    3. Displays last seen location of the vehicle and ofther details like the location, time, and altitude. 
 
 
 # Requirements
@@ -28,7 +28,7 @@ The features of the various parts of this proect are highlighted below:
 
   1. Arduino Uno
   2. [Elecro SIM808](https://www.aliexpress.com/item/High-Quality-SIM808-GPRS-GSM-GPS-Shield-2-in-1-Shield-GSM-GPRS-GPS-Development-Board/32515326895.html) (In software serial mode). 
-  3. 240V/40A relay switch
+  3. [240V/40A relay switch](https://www.aliexpress.com/item/Free-shipping-10Pcs-5V-30A-1-Channel-Relay-Module-Optocoupler-H-L-Level-Triger/32691375337.html)
 
 #### *Web Server:*
 

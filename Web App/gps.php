@@ -77,7 +77,6 @@
 
     <!-- Load Google Maps Api -->
 
-    <!-- IMPORTANT: change the API v3 key -->
     <style>
     .google-maps {
         position: relative;
@@ -94,7 +93,9 @@
     }
 </style>
 
-    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAhYb-kGKvZ7v5Vd7Kl5463tq1myKnmYnM"></script>
+        <!-- IMPORTANT: insert the API key -->
+
+    <script src=""></script>
 
 
     <!-- Initialize Map and markers -->
@@ -111,9 +112,7 @@
               center:myCenter,
               zoom:15,
               mapTypeId:google.maps.MapTypeId.ROADMAP
-            //setInterval(mark(),5000);
-
-              };
+        };
              
           
             mark();

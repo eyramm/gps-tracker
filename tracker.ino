@@ -64,9 +64,7 @@ void setup() {
 void loop() {
 
 	get_GPS();
-
 	sendHTTP();
-
 	sms();
 }
 
@@ -336,8 +334,6 @@ void sms() {
 
 void send_SMS()
 {
-
-
 	mySerial.print("AT+CMGS=\"+233205855439\"\r");
 	delay(1000);
 	mySerial.print("The location of your vehicle is http://maps.google.com/?q="); 

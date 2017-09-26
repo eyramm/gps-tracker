@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Oxygen-Bold';
+    src:url(../fonts/Oxygen-Bold.ttf) format('truetype');
+}
+@font-face{
+  font-family:'Oxygen-Regular';
+  src:url(../fonts/Oxygen-Regular.ttf) format('truetype');
+}
+html,body{
+  background:#fff;
+  font-size: 100%;
+  font-family:'Oxygen-Regular'!important;
+}
+.navbar{
+	text-align: center;
+
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none; 
+}
+.navbar-default{
+	padding-bottom: 0;
+	padding-top: 5px;
+}

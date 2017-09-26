@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="G:\webview-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d88cc455f510833d3d1e4b2a3b142b822c93bbac">
+        <dex dex="G:\webview-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f9ffa002a0583c0cf0022e183ac5be2f6f0778a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\webview-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="b70e39fac1b3e83e499b031d1841f5d96ae2cc4e">
+        <dex dex="G:\webview-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_dc4a76f950bc40bea5dca455aaaf88541336a2d2\classes.dex" />
+    </item>
+
+</items>
